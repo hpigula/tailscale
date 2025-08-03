@@ -59,7 +59,7 @@ main() {
 					APT_KEY_TYPE="legacy"
 				fi
 				;;
-			debian)
+			debian|devuan)
 				OS="$ID"
 				VERSION="$VERSION_CODENAME"
 				PACKAGETYPE="apt"
